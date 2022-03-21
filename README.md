@@ -17,7 +17,7 @@ Website created by U of U bootcamp (week 2 challenge):
 
 ## Live-site
 
-[You can find the site at live here on github](https://attidack.github.io/Horiseon-SEO-Website/)
+[You can find the site at live here on github](https://attidack.github.io/portfolio/)
 
 ## Screenshot
 
@@ -26,7 +26,7 @@ Website created by U of U bootcamp (week 2 challenge):
 
 ## Credits
 
-First week assignment from U of U coding bootcamp.  cloned from [https://github.com/coding-boot-camp/urban-octo-telegram](https://github.com/coding-boot-camp/urban-octo-telegram)
+Created By me as the second assignment for the u of u bootcamp
 
 ## License
 
