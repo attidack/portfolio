@@ -191,6 +191,20 @@
         flex: 1;
     }
 
+    .project a {
+        text-decoration: none;
+        color: var(--primary-color);
+    }
+
+    .project a:hover {
+        text-decoration: none;
+        color: var(--primary-color);
+    }
+
+    .project:hover{
+        opacity: .5;
+    }
+
     .project img {
         width: 100%;
     }
@@ -214,6 +228,8 @@
         font-size: 17px;
     }
 
+    /* Portfolio END */
+
     .text-left {
         text-align: left;
     }
@@ -221,6 +237,12 @@
     .text-right {
         text-align: right;
     }
+
+    .text-center {
+        text-align: center;
+    }
+
+    /* contact info */
 
     .contact {
         background: var(--secondary-color);
@@ -234,6 +256,7 @@
         display: flex;
         justify-content: space-between ;
         flex-wrap: wrap;
+        
     }
 
     .contact-info > * {
@@ -241,8 +264,16 @@
         margin: 15px;
     }
 
+    .contact-info img {
+        width: 100%;
+    }
+
+    .contact-info img:hover {
+        opacity: .5;
+    }
+
     .contact-info iframe {
-        height: 400px;
+        height: 320px;
     }
 
     .contact-info div {
@@ -260,43 +291,12 @@
         font-size: 16px;
         font-style: normal;
     }
-    
-    .contact-form input, .contact-form textarea {
-        border: 1px solid var(--secondary-color);
-        display: block;
-        padding: 7px 15px;
-        font-size: 16px;
-        color: var(--secondary-color);
-        width: 100%;
-        margin-bottom: 15px;
-        margin-top: 5px;
-        border-radius: 10px;
-        background-color: rgba(255,255,255, 0.75);
-    }
-    .contact-form input:focus, .contact-form textarea:focus {
-        background-color: rgba(255,255,255, 1);
-        outline: none;
-    }
-
-    .contact-form button {
-        width: 100%;
-        border: none;
-        background: var(--primary-color);
-        color: var(--secondary-color);
-        text-align: center;
-        padding: 15px 0px;
-        font-size: 16px;
-        border-radius: 10px;
-    }
-
-    .contact-form button:hover {
-        color: var(--primary-color);
-        background: var(--tertiary-color);
-    }
 
     .contact-info a {
         color: var(--primary-color);
     }
+
+
     
     footer {
         display: flex;
