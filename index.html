@@ -8,7 +8,7 @@
     <!-- bootstrap css-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   </head>
-  <body>
+  <body id="home">
     <!-- navigation -->
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll card-overlay">
         <div class="container">
@@ -19,7 +19,7 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#home">Home</a>
+                        <a class="nav-link" href="#">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#about">About</a>
@@ -42,15 +42,15 @@
     <!-- hero section (cta yellow box) -->
     <section class="hero herobg">
       <div class="hero-card">
-        <h2>Hi, it's me Jon</h2>
+        <h2><span class="display-none-small"> Hi, it's me </span>Jon Bird</h2>
         <p>
-            I am a professional software engineer in Salt lake City <br /> (and I am really into offroading)
+          <span class="display-none-small">I am a professional </span>Software ngineer <span class="display-none-small">in</span> <span class="displaysmall"><br /></span> Salt lake City, UT<span class="display-none-small"> <br /> (and I am really into offroading)</span>
         </p>
       </div>
     </section>
     <!-- end hero -->
 
-    <!-- "what we do" section -->
+    <!-- "About Me" section -->
     <section id="about" class="intro">
         <div>
             <h2 class="section-title primary-border">About Me</h2>
@@ -61,106 +61,103 @@
             </div>
                 <p>
                     <strong>I like complex problems solved with simple solutions for non-technical and technical people alike.</strong><br /><br />
-                    butcher selfies chambray shabby chic gentrify readymade yr Echo Park XOXO Tumblr normcore Banksy direct trade Blue Bottle chillwave you probably haven't heard of them single-origin coffee Vice fanny pack fixie Odd Future Austin fingerstache pickled twee synth Wes Anderson Thundercats viral bitters flannel meggings narwhal Marfa Schlitz sustainable Intelligentsia umami deep v craft
+                    I have always been interested in coding.  Being primarily self-taught, I am great at figuring out how to understand different programming languages and repositories.  I struggle with monotonous work, and I thrive in challenging environments.  New projects allow me to solve new problems,  learning how to solve these problems makes me faster at solving the next.  My goal is to specialize in programming solutions and A.I.  
                 </p>
 
       </div>
     </section>
-    <!-- "what you do" section -->
-    <section id="what-you-do" class="steps">
+    <!-- "Services Section -->
+    <section id="services" class="steps">
       <div class="flex-row">
-        <h2 class="section-title secondary-border">What You Do</h2>
+        <h2 class="section-title secondary-border">Services</h2>
       </div>
       <div class="step">
-        <h3>Step 1:</h3>
+        <h3>Front-End:</h3>
         <div class="step-info">
           <div class="step-img">
             <img src="./assets/images/step-1.svg" alt="" />
           </div>
           <div class="step-text">
-            <h4>Fill Out the Form Above.</h4>
-            <p>You're already here, so why not?</p>
+            <h4>CSS, HTML, JAVASCRIPT</h4>
+            <p>Eye friendly U.I.</p>
           </div>
         </div>       
       </div>
       <div class="step">
-        <h3>Step 2:</h3>
+        <h3>Back-End:</h3>
         <div class="step-info">
           <div class="step-img">
             <img src="./assets/images/step-2.svg" alt="" />
           </div>
           <div class="step-text">
-            <h4>Consult with One of Our Trainers.</h4>
-            <p>Are you here to build muscle, lose weight, or just feel good?</p>
+            <h4>PYTHON, DJANGO, JAVASCRIPT</h4>
+            <p>Back-end that brings it all together</p>
           </div>
         </div>       
       </div>
       <div class="step">
-        <h3>Step 3:</h3>
+        <h3>Graphics:</h3>
         <div class="step-info">
           <div class="step-img">
             <img src="./assets/images/step-3.svg" alt="" />
           </div>
           <div class="step-text">
-            <h4>Get Running.</h4>
-            <p>Hit the ground running (literally) once your trainer lays out your plan.</p>
+            <h4>PHOTOSHOP, ILLISTRATOR, AFTER-EFFECTS</h4>
+            <p>Get things looking good</p>
           </div>
         </div>       
       </div>
       <div class="step">
-        <h3>Step 4:</h3>
+        <h3>Camera:</h3>
         <div class="step-info">
           <div class="step-img">
             <img src="./assets/images/step-4.svg" alt="" />
           </div>
           <div class="step-text">
-            <h4>See Results.</h4>
-            <p>Bi-weekly checkins with your trainer will keep you focused</p>
+            <h4>CAMERA, DRONE, GOPRO</h4>
+            <p>Get that perfect shot</p>
           </div>
         </div>       
       </div>
     </section>
-    <!-- "meet the trainers" section -->
-    <section id="your-trainers">
+    <!-- Services section END-->
+    <!-- Portfolio section -->
+    <section id="portfolio">
         <div class="flex-row">
-          <h2 class="section-title primary-border">Meet The Trainers</h2>
+          <h2 class="section-title primary-border">Projects</h2>
         </div>
-        <!-- flexbox trainer section-->
-        <div class="trainers">
-        <!-- first trainer bio -->
-        <article class="trainer">
+        <div class="projects">
+        <!-- first Project -->
+        <article class="project">
           <img src="./assets/images/trainer-1.jpg" alt="Arron Stephens in his workout clothes, ready to pump iron" />
-          <div class="trainer-bio">
-            <h3 class="trainer-name">Arron Stephens</h3>
-            <h4 class="trainer-role">Speed / Strength</h4>
+          <div class="project-bio">
+            <h3 class="project-name">SEO Webpage</h3>
+            <h4 class="project-type">HTML/CSS</h4>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed
-              itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!
+              Refactored the code for this website for my first assignment at the U of U coding bootcamp
             </p>
           </div>
         </article>
-        <!-- second trainer bio -->
-        <article class="trainer">
+        <!-- second Project -->
+        <article class="project">
           <img src="./assets/images/trainer-2.jpg" alt="Joanna Gill cooling off after a workout" />
-          <div class="trainer-bio">
-            <h3 class="trainer-name">Joanna Gill</h3>
-            <h4 class="trainer-role">Endurance</h4>
+          <div class="project-bio">
+            <h3 class="project-name">Bird Overland Instagram</h3>
+            <h4 class="project-type">Graphics, Photo editing</h4>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed
-              itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!
+              From 0 to 11,600 followers in a year! All these photos were edited in adobe AFTER-EFFECTS
             </p>
           </div>
         </article>
         
-        <!-- third trainer bio -->
-        <article class="trainer">
+        <!-- third Project -->
+        <article class="project">
           <img src="./assets/images/trainer-3.jpg" alt="Harry Smith wearing a headband and lifting comically small pink weights" />
-          <div class="trainer-bio">
-            <h3 class="trainer-name">Harry "the Headband" Smith</h3>
-            <h4 class="trainer-role">Strength</h4>
+          <div class="project-bio">
+            <h3 class="project-name">Profit Tracking</h3>
+            <h4 class="project-type">Django, Python</h4>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed
-              itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!
+              Created a production tracking program that logs data from employees to find production efficiencies, and costs
             </p>
           </div>
         </article>
