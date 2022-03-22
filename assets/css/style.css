@@ -191,6 +191,12 @@
         flex: 1;
     }
 
+    .project-small-group {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
     .project a {
         text-decoration: none;
         color: var(--primary-color);
