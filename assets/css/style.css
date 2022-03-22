@@ -203,7 +203,6 @@
 
     .project:hover{
         opacity: .7;
-        transform: scale(1.1);
     }
 
     .project img {
